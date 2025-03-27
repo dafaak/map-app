@@ -3,7 +3,7 @@ import {AppState, Platform} from "react-native";
 import {router} from "expo-router";
 
 import {PermissionStatus} from "@/infrastructure/interfaces/location";
-import {usePermissionsStore} from "@/presentation/store/usePermissions";
+import {usePermissionsStore} from "@/presentation/store/usePermissionsStore";
 
 const focusEvent = Platform.OS === 'android' ? 'focus' : 'change';
 

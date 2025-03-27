@@ -1,5 +1,5 @@
 import { View, Text, StyleSheet } from "react-native";
-import { usePermissionsStore } from "@/presentation/store/usePermissions";
+import { usePermissionsStore } from "@/presentation/store/usePermissionsStore";
 import MapView, { Marker } from "react-native-maps";
 
 const MapScreen = () => {

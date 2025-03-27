@@ -1,5 +1,5 @@
 import {View, Text, Pressable} from "react-native";
-import {usePermissionsStore} from "@/presentation/store/usePermissions";
+import {usePermissionsStore} from "@/presentation/store/usePermissionsStore";
 
 import ThemedPressable from "@/presentation/components/shared/ThemedPressable";
 
